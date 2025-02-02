@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "824147547168",
+    "project_id": "collegemanagementproject-c9eb0",
+    "storage_bucket": "collegemanagementproject-c9eb0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824147547168:android:219431bad5e073c75ad845",
+        "android_client_info": {
+          "package_name": "com.example.collegemanagementproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKKxyU51pxZhnhCpujE68dPh2jqeqV5n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

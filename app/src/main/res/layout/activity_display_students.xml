@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#f4f4f9"
+    android:gravity="center">
+
+    <!-- Class Spinner -->
+    <Spinner
+        android:id="@+id/spinnerClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/spinner_bg"
+        android:textColor="#333"
+        android:textSize="16sp"/>
+
+    <!-- Department Spinner -->
+    <Spinner
+        android:id="@+id/spinnerDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/spinner_bg"
+        android:textColor="#333"
+        android:textSize="16sp"/>
+
+    <!-- ListView to display students -->
+    <ListView
+        android:id="@+id/listViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
